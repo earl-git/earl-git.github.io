@@ -406,7 +406,8 @@ span {
     }
 
     .home-img img {
-        width: 70vw;
+        height: 300px;
+        width: 300px;
         margin-top: 4rem;
     }
 }
@@ -592,10 +593,6 @@ span {
     }
 }
 
-.services-container {
-    grid-template-columns: repeat(1, 1fr);
-}
-
 /*Skills section*/
 
 .skills {
@@ -731,7 +728,6 @@ span {
 .skills .container .bar .info span {
     font-size: 2rem;
     font-weight: 500;
-    margin-left: 0.5rem;
 }
 
 /*Contact section*/
