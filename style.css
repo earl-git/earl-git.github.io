@@ -420,7 +420,7 @@ span {
     transition: opacity 0.8s ease-out, transform 0.8s ease-out;
     background: var(--second-bg-color);
     background: rgba(10, 32, 15, 0.87);
-    min-height: 50vh; /* Minimum section height */
+    min-height: 65vh; /* Minimum section height */
 }
 
 /* Active State - Visible */
@@ -606,7 +606,7 @@ span {
     transform: scale(0.8);
     /* Start smaller */
     transition: opacity 0.8s ease-out, transform 0.8s ease-out;
-    min-height: 95vh;
+    min-height: 90vh;
 }
 
 .skills .heading {
@@ -743,7 +743,7 @@ span {
     padding-top: 0;
     margin-top: 0;
     margin-bottom: 0;
-    min-height: 70vh;
+    min-height: 90vh;
 }
 
 /* Active State - Visible */
@@ -756,6 +756,7 @@ span {
 .contact h2 {
     margin-bottom: 3rem;
     color: black;
+    margin-top: 30vh;
 }
 
 .contact form {
@@ -796,7 +797,7 @@ span {
     position: relative;
     bottom: 0;
     width: 100%;
-    padding: 40px 0;
+    padding: 25px 0;
     background-color: var(--main-color);
 }
 
